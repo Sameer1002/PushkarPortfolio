@@ -233,6 +233,22 @@
   border-radius: 8px;
 }
 
+/* ── Standalone video (under "My Work") ── */
+.work-video-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden; /* prevents the player UI from spilling out */
+}
+
+.work-video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
 /* ── Responsive ── */
 @media only screen and (max-width: 1600px) {
   .carousel-arrow-left {

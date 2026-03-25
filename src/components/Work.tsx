@@ -136,14 +136,20 @@ const Work = () => {
 
 
 
-        <div className="work-container section-container">
+      <div className="work-container section-container">
         <h2>
           My <span>Work</span>
         </h2>
 
-      <div>
-<video src="/images/Portfolio_new_With Audio.mp4" controls></video>
-      </div>
+        <div className="work-video-container">
+          <video
+            className="work-video"
+            src="/images/Portfolio_new_With Audio.mp4"
+            controls
+            playsInline
+          ></video>
+        </div>
+        
       </div>
 
     </div>
