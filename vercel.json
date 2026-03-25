@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!\\.(?:\\w+)$|_next).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+
